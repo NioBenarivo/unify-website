@@ -37,6 +37,16 @@ body {
   flex-direction: column;
   justify-content: space-between;
 
+  @include breakpoint('bp--md--major') {
+    margin-left: 80px;
+    width: 100%;
+  }
+
+  &--expanded {
+    width: 100%;
+    margin-left: 0;
+  }
+
   main {
     background-color: #F8F8F8;
 
@@ -53,13 +63,9 @@ body {
 
 a {
   @include font-smoothing;
-  color: $color__blue-51;
+  color: $color-green;
   font-weight: 600;
   outline: none;
-
-  &:hover {
-    color: $color__blue-40;
-  }
 }
 
 svg {
