@@ -44,6 +44,9 @@ class ComponentDemo extends PureComponent {
               text: 'Wafat Yesus Kristus'
             },
           ]}
+          disabledDate={[new Date(2018, 5, 27),new Date(2018, 5, 28)]}
+          minDate={new Date(2018, 5, 1)}
+          maxDate={new Date(2018, 10, 1)}
           firstDate={this.state.firstDate}
           secondDate={this.state.secondDate}
           onClick={this.updateFirstDate}

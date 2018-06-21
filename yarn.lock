@@ -7791,9 +7791,9 @@ ultron@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.1.0.tgz#b07a2e6a541a815fc6a34ccd4533baec307ca864"
 
-unify-react-mobile@0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/unify-react-mobile/-/unify-react-mobile-0.3.0.tgz#0880c776689ae0d23eece7851735b0542ced2db3"
+unify-react-mobile@0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/unify-react-mobile/-/unify-react-mobile-0.3.1.tgz#82f298d5e4787657ebc79716eebccc953845a915"
   dependencies:
     glob "^7.1.2"
     react-transition-group "1.x"
