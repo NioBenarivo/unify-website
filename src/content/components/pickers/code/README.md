@@ -16,7 +16,7 @@ Use these props on each `<Picker />` component. The bold one in Value section is
 |---------------------|----------------------------------|-----------------|---------------------|
 | className   | Props for applying custom classes   | string            | **""**
 | title   | Props for set bottom sheets title   | string            | **""**
-| full   | Props for making full bottom sheet   | bool            | **false**, true
+| full   | Props for making full bottom sheet and showing current year calendar only  | bool            | **false**, true
 | onClose   | Props for adding function to close the bottom sheet (toggle display state)   | func            | -
 | display   | Props to display the bottom sheet   | bool            | **false**, true
 | firstDate | Props to set first date selected           | object          | -
@@ -24,3 +24,6 @@ Use these props on each `<Picker />` component. The bold one in Value section is
 | infoDate | Props to set custom marked date on bottom   | array           | **[]**
 | onClick   | Props to adding function to set first date value    | func         | -
 | onClickDouble   | Props to adding function to set second date value   | func    | -
+| disabledDate  | Props to disable certain dates         | array            | **[]**
+| minDate  | Props to disable dates before the given date | object            | -
+| maxDate  | Props to disable dates after the given date  | object            | -
